@@ -179,7 +179,7 @@ for i in data:
         ignore_index = True
 )
 
-for column in ['30D Price Return', '200D Price Return','1Y Price Return']:
+for column in ['14D Price Return', '30D Price Return', '200D Price Return','1Y Price Return']:
     hqm_dataframe[column].fillna(hqm_dataframe[column].mean(), inplace = True)
 
 time_periods = [
@@ -287,7 +287,7 @@ for i in data:
         ignore_index = True
 )
 
-for column in ['30D Price Return', '200D Price Return','1Y Price Return']:
+for column in ['14D Price Return', '30D Price Return', '200D Price Return','1Y Price Return']:
     hqm_dataframe[column].fillna(hqm_dataframe[column].mean(), inplace = True)
 
 time_periods = [
